@@ -10,11 +10,9 @@
 .vfrc-chat-input textarea {
   background-image: none;
 }
-
 .vfrc-chat-input textarea::-moz-placeholder {
   color: transparent;
 }
-
 .vfrc-chat-input textarea::placeholder {
   color: transparent;
 }
@@ -24,7 +22,6 @@ footer button.vfrc-button--primary {
   position: relative;
   color: transparent !important;
 }
-
 .vfrc-prompt button.vfrc-button--primary::after,
 footer button.vfrc-button--primary::after {
   position: absolute;
@@ -34,7 +31,6 @@ footer button.vfrc-button--primary::after {
   inset: 0;
   color: #ffffff;
 }
-
 .vfrc-prompt button.vfrc-button--primary[label=Cancel]::after,
 footer button.vfrc-button--primary[label=Cancel]::after {
   color: rgba(0, 0, 0, 0.9);
@@ -52,14 +48,12 @@ footer button.vfrc-button--primary[label=Cancel]::after {
 
 .vfrc-prompt button.vfrc-button--primary::after,
 footer button.vfrc-button--primary::after {
-  content: "Iniciar una nueva conversación";
+  content: "Comenzar una nueva conversación";
 }
-
 .vfrc-prompt button.vfrc-button--primary[label="End Chat"]::after,
 footer button.vfrc-button--primary[label="End Chat"]::after {
   content: "Terminar la conversación";
 }
-
 .vfrc-prompt button.vfrc-button--primary[label=Cancel]::after,
 footer button.vfrc-button--primary[label=Cancel]::after {
   content: "Cancelar";
